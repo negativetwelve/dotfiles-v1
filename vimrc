@@ -136,4 +136,5 @@ function YelpSettings()
     setlocal fo-=a
 endfunction
 autocmd BufNewFile,BufRead ~/pg/* call YelpSettings()
+autocmd BufNewFile,BufRead ~/yelp/* call YelpSettings()
 
