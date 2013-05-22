@@ -102,17 +102,6 @@ set scrolloff=8         "Start scrolling when we're 8 lines away from margins
 set sidescrolloff=15
 set sidescroll=1
 
-" ================ CTRL-P ==========================
-if has("unix")
-  let g:ctrlp_user_command = {
-  \ 'types': {
-     \ 1: ['.git/', 'cd %s && git ls-files']
-  \ },
-  \ 'fallback': 'find %s -type f | head -' . g:ctrlp_max_files
-  \ }
-  endif
-endif
-
 " ================ Custom ==========================
 map <F1> :bprevious<CR>
 map <F2> :bnext<CR>
