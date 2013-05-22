@@ -102,6 +102,10 @@ set scrolloff=8         "Start scrolling when we're 8 lines away from margins
 set sidescrolloff=15
 set sidescroll=1
 
+" ================ Custom ==========================
+map <F1> :bprevious<CR>
+map <F2> :bnext<CR>
+
 
 " ================ Yelp Functions ==================
 
@@ -112,3 +116,4 @@ function YelpSettings()
     setlocal softtabstop=0  " disable part-tab-part-space tabbing
 endfunction
 autocmd BufNewFile,BufRead ~/pg/* call YelpSettings()
+
