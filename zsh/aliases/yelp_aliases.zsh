@@ -1,3 +1,3 @@
 alias yelp="cd ~/pg/yelp-main"
-alias test="cd ~/pg/yelp-main/yelp/test"
+alias tests="cd ~/pg/yelp-main/yelp/tests"
 
