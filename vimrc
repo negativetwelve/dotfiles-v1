@@ -105,7 +105,16 @@ set sidescroll=1
 " ================ Custom ==========================
 map <F1> :bprevious<CR>
 map <F2> :bnext<CR>
-
+nnoremap j gj
+nnoremap k gk
+vnoremap jgj
+vnoremap k gk
+nnoremap <Down> gj
+nnoremap <Up> gk
+vnoremap <Down> gj
+vnoremap <Up> gk
+inoremap <Down> <C-o>gj
+inoremap <Up> <C-o>gk
 
 " ================ Yelp Functions ==================
 
