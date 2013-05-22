@@ -70,8 +70,11 @@ filetype indent on
 " Display tabs and trailing spaces visually
 set list listchars=tab:\ \ ,trail:·
 
-set nowrap       "Don't wrap lines
-set linebreak    "Wrap lines at convenient points
+set tw=80
+set wrap
+set cc=80
+set fo+=a
+" set linebreak    "Wrap lines at convenient points
 
 " ================ Folds ============================
 
@@ -116,6 +119,10 @@ vnoremap <Up> gk
 inoremap <Down> <C-o>gj
 inoremap <Up> <C-o>gk
 
+nnoremap ; :
+
+set pastetoggle=<F3>
+
 " ================ Yelp Functions ==================
 
 function YelpSettings()
@@ -123,6 +130,10 @@ function YelpSettings()
     setlocal shiftwidth=4   " auto-indent width
     setlocal tabstop=4      " display width of a physical tab character
     setlocal softtabstop=0  " disable part-tab-part-space tabbing
+    setlocal nowrap
+    setlocal cc=0
+    setlocal tw=0
+    setlocal fo-=a
 endfunction
 autocmd BufNewFile,BufRead ~/pg/* call YelpSettings()
 
