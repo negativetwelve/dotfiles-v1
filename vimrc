@@ -73,7 +73,7 @@ set list listchars=tab:\ \ ,trail:·
 set tw=80
 set wrap
 set cc=80
-set fo+=a
+" set fo+=a
 " set linebreak    "Wrap lines at convenient points
 
 " ================ Folds ============================
