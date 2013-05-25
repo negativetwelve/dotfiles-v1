@@ -1,9 +1,9 @@
-alias projects="cd ~/Dropbox/projects"
+alias projects="cd ~/dropbox/projects"
 
-alias berkeley="cd ~/Dropbox/berkeley"
-alias sp13="cd ~/Dropbox/berkeley/sp13"
+alias berkeley="cd ~/dropbox/berkeley"
+alias sp13="cd ~/dropbox/berkeley/sp13"
 
-alias cs61a="cd ~/Dropbox/projects/cs61a"
+alias cs61a="cd ~/dropbox/projects/cs61a"
 
-alias mmcom="cd ~/Dropbox/projects/markmiyashita.com"
+alias mmcom="cd ~/dropbox/projects/markmiyashita.com"
 alias tmp="cd ~/tmp"
