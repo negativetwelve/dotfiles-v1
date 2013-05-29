@@ -138,3 +138,4 @@ endfunction
 autocmd BufNewFile,BufRead ~/pg/* call YelpSettings()
 autocmd BufNewFile,BufRead ~/yelp/* call YelpSettings()
 
+autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4
