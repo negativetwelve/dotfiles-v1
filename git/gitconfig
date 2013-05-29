@@ -73,7 +73,9 @@
   # status
   s = status                        # status
   st = status                       # status
-  stat = status                     # status
+
+  # stats for diff
+  stat = diff --summary --stat      # summary of line changes
 
   # tag
   t = tag -n                        # show tags with <n> lines of each tag message
