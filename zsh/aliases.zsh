@@ -155,3 +155,5 @@ alias sp='sprintly'
 alias spb="git checkout -b \`sp | tail -2 | grep '#' | sed 's/^ //' | sed 's/[^A-Za-z0-9 ]//g' | sed 's/ /-/g' | cut -d"-" -f1,2,3,4,5\`"
 
 for file in `ls ~/.yadr/zsh/aliases`; do source ~/.yadr/zsh/aliases/$file; done
+
+source ~/.yadr/zsh/zzzz_after.zsh
