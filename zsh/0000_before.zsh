@@ -5,3 +5,5 @@ if [ -d $HOME/.zsh.before/ ]; then
     for config_file ($HOME/.zsh.before/*.zsh) source $config_file
   fi
 fi
+
+[[ -s "/home/andre/.rvm/scripts/rvm" ]] && source "/home/andre/.rvm/scripts/rvm"

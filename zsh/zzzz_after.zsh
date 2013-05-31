@@ -14,3 +14,4 @@ then
   export SSH_AUTH_SOCK=$SOCK
 fi
 
+source ~/.yadr/zsh/zsh-func.zsh
