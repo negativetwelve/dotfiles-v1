@@ -100,7 +100,7 @@
 [push]
   # 'git push' will push the current branch to nothing
   # type in everything to push
-  default = nothing
+  default = tracking
 [core]
   autocrlf = false
   editor = vim
