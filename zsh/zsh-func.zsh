@@ -7,6 +7,7 @@ reset-postgres(){
   launchctl unload -w ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
   cp /usr/local/Cellar/postgresql/9.2.4/homebrew.mxcl.postgresql.plist ~/Library/LaunchAgents/
   launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
+  psql template1 -c 'create extension hstore;'
   sleep 3
   createdb coursesharing_development
 }
