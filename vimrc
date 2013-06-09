@@ -123,6 +123,14 @@ nnoremap ; :
 
 set pastetoggle=<F3>
 
+set t_Co=256
+set background=dark
+if !has('gui_running')
+  let g:solarized_termcolors=&t_Co
+  let g:solarized_termtrans=1
+endif
+colorscheme solarized
+
 " ================ Yelp Functions ==================
 
 function YelpSettings()

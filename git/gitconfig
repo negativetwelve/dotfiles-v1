@@ -92,16 +92,14 @@
   cmd="mvim -c 'Gdiff' $MERGED"     # use fugitive.vim for 3-way merge
   keepbackup=false
 [merge]
-  summary = true
-  verbosity = 1
-  tool = mvimdiff
+  log = false
 [apply]
   whitespace = nowarn
 [branch]
   autosetupmerge = true
 [push]
-  # 'git push' will push the current branch to its tracking branch
-  # the usual default is to push all branches
+  # 'git push' will push the current branch to nothing
+  # type in everything to push
   default = tracking
 [core]
   autocrlf = false
