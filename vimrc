@@ -70,9 +70,9 @@ filetype indent on
 " Display tabs and trailing spaces visually
 set list listchars=tab:\ \ ,trail:·
 
-set tw=80
+" set tw=80
 set wrap
-set cc=80
+" set cc=80
 " set fo+=a
 " set linebreak    "Wrap lines at convenient points
 
