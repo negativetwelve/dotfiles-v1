@@ -15,3 +15,5 @@ then
 fi
 
 source ~/.yadr/zsh/zsh-func.zsh
+
+PATH=$PATH:/usr/local/share/npm/bin
