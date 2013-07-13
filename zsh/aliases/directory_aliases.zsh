@@ -7,3 +7,4 @@ alias cs61a="cd ~/dropbox/projects/cs61a"
 
 alias mmcom="cd ~/dropbox/projects/markmiyashita.com"
 alias tmp="cd ~/tmp"
+alias ios="cd ~/dropbox/projects/ios-pet-game"
