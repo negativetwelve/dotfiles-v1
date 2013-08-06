@@ -143,7 +143,7 @@ function YelpSettings()
     setlocal tw=0
     setlocal fo-=a
 endfunction
-autocmd BufNewFile,BufRead ~/pg/* call YelpSettings()
+autocmd BufNewFile,BufRead ~/pg/yelp-main/* call YelpSettings()
 autocmd BufNewFile,BufRead ~/yelp/* call YelpSettings()
 
 autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4
