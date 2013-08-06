@@ -11,3 +11,5 @@ function ypush() {
   cd -;
 }
 
+# For tmux attach and creation.
+alias tm="tmux attach-session -t pro || tmux new-session -s pro"
