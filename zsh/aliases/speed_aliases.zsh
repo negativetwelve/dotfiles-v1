@@ -13,3 +13,7 @@ function ypush() {
 
 # For tmux attach and creation.
 alias tm="tmux attach-session -t pro || tmux new-session -s pro"
+
+if [ `uname` '==' "Linux" ]; then
+  alias ls="ls --color=auto"
+fi
