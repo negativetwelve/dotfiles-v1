@@ -13,3 +13,9 @@ function ypush() {
 
 # For tmux attach and creation.
 alias tm="tmux attach-session -t pro || tmux new-session -s pro"
+
+if [ `uname` '==' "Linux" ]; then
+  # Ubuntu/server specific aliases.
+  alias ls="ls --color=auto"
+  alias tmux="$HOME/local/bin/tmux"
+fi
