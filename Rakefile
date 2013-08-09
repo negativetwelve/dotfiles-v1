@@ -16,6 +16,7 @@ task :install => [:submodule_init, :submodules] do
   # this has all the runcoms from this directory.
   file_operation(Dir.glob('git/*')) if want_to_install?('git configs (color, aliases)')
   file_operation(Dir.glob('irb/*')) if want_to_install?('irb/pry configs (more colorful)')
+  file_operation(Dir.glob('irssi/*')) if want_to_install?('irssi (irc client)')
   file_operation(Dir.glob('ruby/*')) if want_to_install?('rubygems config (faster/no docs)')
   file_operation(Dir.glob('ctags/*')) if want_to_install?('ctags config (better js/ruby support)')
   file_operation(Dir.glob('tmux/*')) if want_to_install?('tmux config')
