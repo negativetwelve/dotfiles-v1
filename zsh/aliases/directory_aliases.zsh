@@ -10,3 +10,5 @@ alias tmp="cd ~/tmp"
 alias ios="cd ~/dropbox/projects/ios-pet-game"
 
 alias bp="cd ~/dropbox/projects/blueprint"
+
+alias bench="cd ~/dropbox/projects/bench"
