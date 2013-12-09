@@ -1,3 +1,5 @@
+alias start="tmux attach-session -t pro || tmux new-session -s pro"
+
 alias fa13="cd ~/dropbox/berkeley/fa13"
 
 alias aliases="cd ~/.yadr/zsh/aliases"
