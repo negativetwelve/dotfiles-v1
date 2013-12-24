@@ -10,6 +10,6 @@ reset-postgres(){
   sleep 3
   createdb coursesharing_development
   sleep 1
-  psql template1 -c 'create extension hstore;'
+#  psql template1 -c 'create extension hstore;'
 }
 
