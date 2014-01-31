@@ -132,18 +132,4 @@ endif
 colorscheme solarized
 
 " ================ Yelp Functions ==================
-
-function YelpSettings()
-    setlocal noexpandtab    " don't turn them into spaces
-    setlocal shiftwidth=4   " auto-indent width
-    setlocal tabstop=4      " display width of a physical tab character
-    setlocal softtabstop=0  " disable part-tab-part-space tabbing
-    setlocal nowrap
-    setlocal cc=0
-    setlocal tw=0
-    setlocal fo-=a
-endfunction
-autocmd BufNewFile,BufRead ~/pg/yelp-main/* call YelpSettings()
-autocmd BufNewFile,BufRead ~/yelp/* call YelpSettings()
-
 autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4
