@@ -33,3 +33,5 @@ alias run-debug="python batch/adhoc/mobile/mobile_session_analysis/mr_mobile_ses
 
 
 alias tail_aa="tools/scribereader -e dev api_analytics --tail | ~/lib/jsonq/jsonq '.analytics[*].iri'"
+
+alias os="cd ~/dropbox/projects/open-source"
