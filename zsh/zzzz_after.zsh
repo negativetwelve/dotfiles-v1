@@ -16,4 +16,4 @@ fi
 
 source ~/.yadr/zsh/zsh-func.zsh
 
-PATH=$PATH:/usr/local/share/npm/bin:~/dropbox/projects/nachos/bin
+PATH=$PATH:/usr/local/share/npm/bin:~/dropbox/projects/cs162/nachos/bin
