@@ -1,4 +1,4 @@
-    Based off of Yadr, edited for my own preferences by me.
+Based off of [Yadr](https://github.com/skwp/dotfiles), edited for my own preferences by [me](https://github.com/negativetwelve).
 
 Original Readme is below:
 
