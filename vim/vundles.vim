@@ -117,11 +117,6 @@ Bundle "chrisbra/color_highlight.git"
 Bundle "skwp/vim-colors-solarized"
 Bundle "skwp/vim-powerline.git"
 Bundle "vim-scripts/TagHighlight.git"
-Bundle "itspriddle/vim-jquery.git"
-Bundle "slim-template/vim-slim.git"
-Bundle "bogado/file-line.git"
-Bundle "tpope/vim-rvm.git"
-Bundle "nelstrom/vim-visual-star-search"
 
 Bundle "vim-scripts/TabBar"
 
