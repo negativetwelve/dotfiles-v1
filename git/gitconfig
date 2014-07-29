@@ -48,6 +48,9 @@
   # pull
   pl = pull                         # pull
 
+  # subtree pull
+  spl = pull -s subtree
+
   # push
   ps = push                         # push
 
