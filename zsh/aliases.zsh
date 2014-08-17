@@ -154,3 +154,4 @@ alias spb="git checkout -b \`sp | tail -2 | grep '#' | sed 's/^ //' | sed 's/[^A
 for file in `ls ~/.yadr/zsh/aliases`; do source ~/.yadr/zsh/aliases/$file; done
 
 source ~/.yadr/zsh/zzzz_after.zsh
+export SHELL=/bin/zsh
