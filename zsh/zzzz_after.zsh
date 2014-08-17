@@ -15,5 +15,6 @@ then
 fi
 
 source ~/.yadr/zsh/zsh-func.zsh
+source ~/dropbox/projects/leada/teamleada.com/scripts/.leada.profile
 
 PATH=$PATH:/usr/local/share/npm/bin:~/dropbox/projects/cs162/nachos/bin
