@@ -20,7 +20,6 @@ source ~/.yadr/zsh/zsh-func.zsh
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
 
 PATH=$PATH:/usr/local/share/npm/bin
-PATH=$PATH:$HOME/npm/bin
 
 # Postgres
 export PGHOST=localhost
