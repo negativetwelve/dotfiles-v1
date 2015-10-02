@@ -21,6 +21,9 @@ source ~/.yadr/zsh/zsh-func.zsh
 
 PATH=$PATH:/usr/local/share/npm/bin:~/npm/bin
 
+# Turn off auto cd so that we can run executables.
+unsetopt AUTO_CD
+
 # Postgres
 export PGHOST=localhost
 export PGDATA=/usr/local/var/postgres
