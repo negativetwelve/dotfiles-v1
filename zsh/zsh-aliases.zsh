@@ -1,4 +1,5 @@
 # Global aliases
+alias -g ..='cd ..'
 alias -g ...='../..'
 alias -g ....='../../..'
 alias -g .....='../../../..'
