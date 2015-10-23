@@ -27,3 +27,7 @@ unsetopt AUTO_CD
 # Postgres
 export PGHOST=localhost
 export PGDATA=/usr/local/var/postgres
+
+# Editor
+export EDITOR=subl
+
