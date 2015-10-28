@@ -6,4 +6,3 @@ if [ -d $HOME/.zsh.before/ ]; then
   fi
 fi
 
-[[ -s "/home/andre/.rvm/scripts/rvm" ]] && source "/home/andre/.rvm/scripts/rvm"

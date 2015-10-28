@@ -31,3 +31,4 @@ export PGDATA=/usr/local/var/postgres
 # Editor
 export EDITOR=subl
 
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
