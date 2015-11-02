@@ -19,7 +19,7 @@ source ~/.yadr/zsh/zsh-func.zsh
 # For autojump and j to load, we need to initialize the scripts.
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
 
-PATH=$PATH:/usr/local/share/npm/bin:~/npm/bin
+PATH="$HOME/.rvm/bin:$PATH:/usr/local/share/npm/bin:~/npm/bin"
 
 # Turn off auto cd so that we can run executables.
 unsetopt AUTO_CD
@@ -31,4 +31,3 @@ export PGDATA=/usr/local/var/postgres
 # Editor
 export EDITOR=subl
 
-# [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
