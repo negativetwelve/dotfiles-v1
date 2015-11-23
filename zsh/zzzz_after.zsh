@@ -19,7 +19,7 @@ source ~/.yadr/zsh/zsh-func.zsh
 # For autojump and j to load, we need to initialize the scripts.
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
 
-PATH=$PATH:/usr/local/share/npm/bin:~/npm/bin
+PATH="$PATH:/usr/local/share/npm/bin:$HOME/npm/bin:$HOME/.rvm/bin"
 
 # Turn off auto cd so that we can run executables.
 unsetopt AUTO_CD
@@ -30,4 +30,7 @@ export PGDATA=/usr/local/var/postgres
 
 # Export the JAVA8 environment variable for using the latest Java 8 goodies.
 export JAVA8_HOME=$(/usr/libexec/java_home)
+
+# Editor
+export EDITOR=subl
 
