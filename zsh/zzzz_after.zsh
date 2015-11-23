@@ -27,3 +27,7 @@ unsetopt AUTO_CD
 # Postgres
 export PGHOST=localhost
 export PGDATA=/usr/local/var/postgres
+
+# Export the JAVA8 environment variable for using the latest Java 8 goodies.
+export JAVA8_HOME=$(/usr/libexec/java_home)
+
