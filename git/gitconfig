@@ -14,6 +14,7 @@
 [alias]
   # add
   a = add                           # add
+  an = "!git add $(git ls-files -o --exclude-standard)" # add new files
   chunkyadd = add --patch           # stage commits chunk by chunk
 
   # branch
