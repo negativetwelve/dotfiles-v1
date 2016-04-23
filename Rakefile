@@ -29,8 +29,8 @@ task :install => [:submodule_init, :submodules] do
   Rake::Task["install_prezto"].execute
 
   install_fonts if RUBY_PLATFORM.downcase.include?("darwin")
-
   install_term_theme if RUBY_PLATFORM.downcase.include?("darwin")
+  run %{ defaults write com.apple.finder AppleShowAllFiles YES } if RUBY_PLATFORM.downcase.include?("darwin")
 
   success_msg("installed")
 end
