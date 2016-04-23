@@ -19,7 +19,7 @@ source ~/.yadr/zsh/zsh-func.zsh
 # For autojump and j to load, we need to initialize the scripts.
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
 
-PATH="$PATH:/usr/local/share/npm/bin:$HOME/npm/bin:$HOME/.rvm/bin"
+PATH="$PATH:/usr/local/share/npm/bin:$HOME/npm/bin:$HOME/.rvm/bin:$HOME/.nvm/bin"
 
 # Turn off auto cd so that we can run executables.
 unsetopt AUTO_CD
