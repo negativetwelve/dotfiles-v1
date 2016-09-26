@@ -150,7 +150,7 @@ alias sp='sprintly'
 # spb = sprintly branch - create a branch automatically based on the bug you're working on
 alias spb="git checkout -b \`sp | tail -2 | grep '#' | sed 's/^ //' | sed 's/[^A-Za-z0-9 ]//g' | sed 's/ /-/g' | cut -d"-" -f1,2,3,4,5\`"
 
-for file in `ls ~/.yadr/zsh/aliases`; do source ~/.yadr/zsh/aliases/$file; done
+for file in ~/.yadr/zsh/aliases/*; do source $file; done
 
 source ~/.yadr/zsh/zzzz_after.zsh
 export SHELL=/bin/zsh
